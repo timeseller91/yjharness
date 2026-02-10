@@ -3,7 +3,7 @@ import { ThemeProvider } from "next-themes";
 
 import "styles/globals.css";
 
-const SITE_URL = "https://yjharness.com";
+const SITE_URL = "https://www.yjharness.com";
 
 export const metadata: Metadata = {
   title: {
