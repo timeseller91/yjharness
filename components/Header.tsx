@@ -20,7 +20,7 @@ export default function Header() {
     <header className="bg-white dark:bg-black shadow-sm dark:border-b dark:border-gray-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center">
-          <span className="text-xl font-bold text-brand-700 dark:text-brand-400">영지하네스</span>
+          <span className="text-xl font-bold text-brand-700 dark:text-brand-400">HJ-harness</span>
         </Link>
         <nav className="hidden md:flex items-center">
           <ul className="flex space-x-1 mr-2">
