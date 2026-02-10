@@ -1,8 +1,24 @@
+import type { Metadata } from "next";
 import Header from "components/Header";
 import Footer from "components/Footer";
 import ContactForm from "components/ContactForm";
 import { AiOutlineEnvironment, AiOutlineMail } from "react-icons/ai";
 import { FaBuilding } from "react-icons/fa";
+
+export const metadata: Metadata = {
+  title: "문의하기 - 연락처 및 위치 안내",
+  description:
+    "영지하네스 문의하기. 충청북도 음성군 감곡면 오갑길192번길 11. 산업안전용품 관련 문의, 제품 상담, 맞춤 제작 문의를 받고 있습니다.",
+  keywords: ["영지하네스 문의", "영지하네스 연락처", "영지하네스 위치", "산업안전용품 문의", "음성군 감곡면", "안전용품 상담"],
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "문의하기 - 영지하네스",
+    description: "영지하네스에 문의하세요. 충북 음성 소재. 제품 상담, 맞춤 제작 문의.",
+    url: "/contact",
+  },
+};
 
 export default function ContactPage() {
   return (

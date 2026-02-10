@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import Header from "components/Header";
 import Footer from "components/Footer";
 import Section from "components/Section";
 import { FaCogs, FaIndustry, FaCheckCircle, FaClipboardCheck } from "react-icons/fa";
+
+export const metadata: Metadata = {
+  title: "장비설비 - 생산설비 및 생산 공정 안내",
+  description:
+    "영지하네스 장비설비 안내. 직조기, 제직 설비, 품질검사 장비, 봉제 설비 등 현대화된 생산설비와 원사 준비부터 출하까지의 체계적인 생산 공정을 소개합니다.",
+  keywords: ["직조기", "제직 설비", "품질검사 장비", "봉제 설비", "생산 공정", "산업안전용품 생산", "직물 생산설비"],
+  alternates: {
+    canonical: "/equipment",
+  },
+  openGraph: {
+    title: "장비설비 - 영지하네스",
+    description: "현대화된 생산설비와 체계적인 생산 공정을 소개합니다.",
+    url: "/equipment",
+  },
+};
 
 const equipmentList = [
   {

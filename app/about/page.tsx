@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import Header from "components/Header";
 import Footer from "components/Footer";
 import Section from "components/Section";
 import Accordion from "components/Accordion";
+
+export const metadata: Metadata = {
+  title: "회사소개 - 산업안전용품 전문 제조업체",
+  description:
+    "영지하네스 회사소개. 대표 박준영, 사업자번호 340-01-0187606. 충북 음성 소재 산업안전용품 전문 제조업체. 특수 직물, 세폭직물, NYLON원사, POLY원사 활용 제품 생산.",
+  keywords: ["영지하네스 회사소개", "산업안전용품 제조업체", "충북 음성", "박준영", "특수 직물 직조업", "안전용품 공장"],
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "회사소개 - 영지하네스",
+    description: "산업안전용품 전문 제조업체 영지하네스를 소개합니다. 대표 박준영, 충북 음성 소재.",
+    url: "/about",
+  },
+};
 
 const historyItems = [
   {

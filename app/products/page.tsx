@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import Header from "components/Header";
 import Footer from "components/Footer";
 import FeatureCard from "components/FeatureCard";
 import { FaShieldAlt, FaLink, FaHardHat, FaVest, FaRulerCombined, FaProjectDiagram } from "react-icons/fa";
+
+export const metadata: Metadata = {
+  title: "제품 소개 - 안전 하네스, 안전 벨트, 특수 직물",
+  description:
+    "영지하네스 제품 소개. 안전 하네스, 안전 벨트, 세폭직물 웨빙, 특수 직물 제품, 맞춤형 산업안전용품. NYLON원사·POLY원사로 제작한 고품질 안전용품.",
+  keywords: ["안전 하네스", "안전 벨트", "세폭직물", "웨빙", "특수 직물", "산업안전용품", "NYLON원사", "POLY원사", "맞춤형 안전용품"],
+  alternates: {
+    canonical: "/products",
+  },
+  openGraph: {
+    title: "제품 소개 - 영지하네스",
+    description: "안전 하네스, 안전 벨트, 세폭직물, 특수 직물 등 산업안전용품을 소개합니다.",
+    url: "/products",
+  },
+};
 
 const products = [
   {
