@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yjharness.com/sitemap.xml",
+    sitemap: "https://www.yjharness.com/sitemap.xml",
   };
 }
